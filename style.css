@@ -1,0 +1,37 @@
+:root{
+    --color-creme: #d1b271;
+    --color-yellow: #fed90f;
+    --color-background: #de433f;
+}
+
+*,
+*::before,
+*::after {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    height: 100vh;
+    background-color: var(--color-background);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+head {
+    width: 215px;
+    height: 405px;
+    position: relative;
+}
+
+.forhead {
+    width: 170px;
+    height: 200px;
+    background-color: var(--color-yellow);
+    border: 1px solid black;
+    border-radius: 60%/50%;
+    transform: rotate(-18deg);
+    top: 10px;
+}
